@@ -83,4 +83,3 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/fascinatemtd/proprietary/media/battery_charging_95.qmg:system/media/battery_charging_95.qmg \
     vendor/samsung/fascinatemtd/proprietary/media/chargingwarning.qmg:system/media/chargingwarning.qmg \
     vendor/samsung/fascinatemtd/proprietary/media/Disconnected.qmg:system/media/Disconnected.qmg
->>>>>>> 2ab2b10... Add Aries-common and Fasincate blobs
