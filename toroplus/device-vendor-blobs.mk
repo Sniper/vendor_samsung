@@ -30,14 +30,14 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/toroplus/proprietary/libgcomm_jni.so:system/lib/libcomm_jni.so \
     vendor/samsung/toroplus/proprietary/libspeexwrapper.so:system/lib/libspeexwrapper.so \
     vendor/samsung/toroplus/proprietary/libstagefright_soft_g711dec.so:system/lib/libstagefright_soft_g711dec.so \
-    vendor/samsung/toroplus/proprietary/libvorbisencoder.so:system/lib/libvorbisencoder.so \
+    vendor/samsung/toroplus/proprietary/libvorbisidec.so:system/lib/libvorbisidec.so \
     vendor/samsung/toroplus/proprietary/pvrsrvctl:system/vendor/bin/pvrsrvctl \
     vendor/samsung/toroplus/proprietary/sirfgps.conf:system/vendor/etc/sirfgps.conf \
     vendor/samsung/toroplus/proprietary/smc_normal_world_android_cfg.ini:system/vendor/etc/smc_normal_world_android_cfg.ini \
     vendor/samsung/toroplus/proprietary/bcm4330.hcd:system/vendor/firmware/bcm4330.hcd \
     vendor/samsung/toroplus/proprietary/ducati-m3.bin:system/vendor/firmware/ducati-m3.bin \
     vendor/samsung/toroplus/proprietary/fw_bcmdhd.bin:system/vendor/firmware/fw_bcmdhd.bin \
-    vendor/samsung/toroplus/proprietary/fw_bcmdhd_apasta.bin:system/vendor/firmware/fw_bcmhd_apasta.bin \
+    vendor/samsung/toroplus/proprietary/fw_bcmdhd_apsta.bin:system/vendor/firmware/fw_bcmhd_apsta.bin \
     vendor/samsung/toroplus/proprietary/fw_bcmdhd_p2p.bin:system/vendor/firmware/fw_bcmdhd_p2p.bin \
     vendor/samsung/toroplus/proprietary/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so \
     vendor/samsung/toroplus/proprietary/mms144_ts_rev31.fw:system/vendor/firmware/mms144_ts_rev31.fw \
@@ -58,13 +58,16 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/toroplus/proprietary/libpvr2d.so:system/vendor/lib/libpvr2d.so \
     vendor/samsung/toroplus/proprietary/libpvrANDROID_WSEGL.so:system/vendor/lib/libpvrANDROID_WSEGL.so \
     vendor/samsung/toroplus/proprietary/libPVRScopeServices.so:system/vendor/lib/libPVRScopeServices.so \
-    vendor/samsung/toroplus/proprietary/libsec-ril.so:system/vendor/lib/libsec-ril.so \
     vendor/samsung/toroplus/proprietary/libsrv_init.so:system/vendor/lib/libsrv_init.so \
     vendor/samsung/toroplus/proprietary/libsrv_um.so:system/vendor/lib/libsrv_um.so \
     vendor/samsung/toroplus/proprietary/libusc.so:system/vendor/lib/libusc.so \
     vendor/samsung/toroplus/proprietary/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
     vendor/samsung/toroplus/proprietary/libwvm.so:system/vendor/lib/libwvm.so \
     vendor/samsung/toroplus/proprietary/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
+    vendor/samsung/toroplus/proprietary/com.google.android.nfc_extras.xml:system/etc/permissions/com.google.android.nfc_extras.xml \
+    vendor/samsung/toroplus/proprietary/com.samsung.device.xml:system/etc/permissions/com.samsung.device.xml \
+    vendor/samsung/toroplus/proprietary/android.hardware.telephony.cdma.xml:system/etc/permissions/android.hardware.telephony.cdma.xml \
+    
 
 # All the apks necessary for toroplus
 PRODUCT_PACKAGES += \
@@ -72,7 +75,6 @@ PRODUCT_PACKAGES += \
     GoogleBackupTransport \
     BIP \
     SDM \
-    RTN \
     SecPhone \
     SyncMLSvc
 
