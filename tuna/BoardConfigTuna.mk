@@ -12,8 +12,3 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-LOCAL_PATH := vendor/samsung/maguro
-
-
-$(call inherit-product-if-exists, vendor/samsung/maguro/device-vendor-blobs.mk)
-$(call inherit-product-if-exists, vendor/samsung/tuna/device-vendor-blobs.mk)
