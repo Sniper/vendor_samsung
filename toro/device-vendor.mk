@@ -14,10 +14,10 @@
 
 LOCAL_STEM := toro/device-partial.mk
 
-$(call inherit-product, vendor/samsung/toro/device-vendor-blobs.mk)
 $(call inherit-product-if-exists, vendor/broadcom/$(LOCAL_STEM))
 $(call inherit-product-if-exists, vendor/csr/$(LOCAL_STEM))
 $(call inherit-product-if-exists, vendor/imgtec/$(LOCAL_STEM))
 $(call inherit-product-if-exists, vendor/invensense/$(LOCAL_STEM))
 $(call inherit-product-if-exists, vendor/nxp/$(LOCAL_STEM))
+$(call inherit-product-if-exists, vendor/samsung/$(LOCAL_STEM))
 $(call inherit-product-if-exists, vendor/ti/$(LOCAL_STEM))
