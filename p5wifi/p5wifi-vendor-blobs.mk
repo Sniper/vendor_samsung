@@ -17,18 +17,18 @@
 # Prebuilt libraries that are needed to build open-source libraries
 
 PRODUCT_COPY_FILES := \
-    vendor/samsung/p5wifi/proprietary/bin/gps.cer:system/bin/gps.cer \
     vendor/samsung/p5wifi/proprietary/bin/gpsd:system/bin/gpsd \
+    vendor/samsung/p5wifi/proprietary/bin/gps.cer:system/bin/gps.cer \
     vendor/samsung/p5wifi/proprietary/bin/macloader:system/bin/macloader \
     vendor/samsung/p5wifi/proprietary/bin/tegrastats:system/bin/tegrastats \
+    vendor/samsung/p5wifi/proprietary/etc/audio/Rx_ControlParams_BLUETOOTH_HEADSET.txt:system/etc/audio/Rx_ControlParams_BLUETOOTH_HEADSET.txt \
+    vendor/samsung/p5wifi/proprietary/etc/audio/Tx_ControlParams_BLUETOOTH_HEADSET.txt:system/etc/audio/Tx_ControlParams_BLUETOOTH_HEADSET.txt \
     vendor/samsung/p5wifi/proprietary/etc/audio/LVVEFS_Rx_Configuration.txt:system/etc/audio/LVVEFS_Rx_Configuration.txt \
     vendor/samsung/p5wifi/proprietary/etc/audio/LVVEFS_Tx_Configuration.txt:system/etc/audio/LVVEFS_Tx_Configuration.txt \
-    vendor/samsung/p5wifi/proprietary/etc/audio/Rx_ControlParams_BLUETOOTH_HEADSET.txt:system/etc/audio/Rx_ControlParams_BLUETOOTH_HEADSET.txt \
     vendor/samsung/p5wifi/proprietary/etc/audio/Rx_ControlParams_EARPIECE_WIDEBAND.txt:system/etc/audio/Rx_ControlParams_EARPIECE_WIDEBAND.txt \
     vendor/samsung/p5wifi/proprietary/etc/audio/Rx_ControlParams_SPEAKER_WIDEBAND.txt:system/etc/audio/Rx_ControlParams_SPEAKER_WIDEBAND.txt \
     vendor/samsung/p5wifi/proprietary/etc/audio/Rx_ControlParams_WIRED_HEADPHONE_WIDEBAND.txt:system/etc/audio/Rx_ControlParams_WIRED_HEADPHONE_WIDEBAND.txt \
     vendor/samsung/p5wifi/proprietary/etc/audio/Rx_ControlParams_WIRED_HEADSET_WIDEBAND.txt:system/etc/audio/Rx_ControlParams_WIRED_HEADSET_WIDEBAND.txt \
-    vendor/samsung/p5wifi/proprietary/etc/audio/Tx_ControlParams_BLUETOOTH_HEADSET.txt:system/etc/audio/Tx_ControlParams_BLUETOOTH_HEADSET.txt \
     vendor/samsung/p5wifi/proprietary/etc/audio/Tx_ControlParams_EARPIECE_WIDEBAND.txt:system/etc/audio/Tx_ControlParams_EARPIECE_WIDEBAND.txt \
     vendor/samsung/p5wifi/proprietary/etc/audio/Tx_ControlParams_SPEAKER_WIDEBAND.txt:system/etc/audio/Tx_ControlParams_SPEAKER_WIDEBAND.txt \
     vendor/samsung/p5wifi/proprietary/etc/audio/Tx_ControlParams_WIRED_HEADPHONE_WIDEBAND.txt:system/etc/audio/Tx_ControlParams_WIRED_HEADPHONE_WIDEBAND.txt \
@@ -50,18 +50,17 @@ PRODUCT_COPY_FILES := \
     vendor/samsung/p5wifi/proprietary/etc/firmware/nvrm_avp.bin:system/etc/firmware/nvrm_avp.bin \
     vendor/samsung/p5wifi/proprietary/etc/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt \
     vendor/samsung/p5wifi/proprietary/etc/wifi/wl:system/etc/wifi/wl \
-    vendor/samsung/p5wifi/proprietary/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
     vendor/samsung/p5wifi/proprietary/lib/egl/libEGL_tegra.so:system/lib/egl/libEGL_tegra.so \
     vendor/samsung/p5wifi/proprietary/lib/egl/libGLESv1_CM_tegra.so:system/lib/egl/libGLESv1_CM_tegra.so \
     vendor/samsung/p5wifi/proprietary/lib/egl/libGLESv2_tegra.so:system/lib/egl/libGLESv2_tegra.so \
     vendor/samsung/p5wifi/proprietary/lib/hw/audio.primary.tegra.so:system/lib/hw/audio.primary.tegra.so \
-    vendor/samsung/p5wifi/proprietary/lib/hw/audio_policy.tegra.so:system/lib/hw/audio_policy.tegra.so \
     vendor/samsung/p5wifi/proprietary/lib/hw/camera.tegra.so:system/lib/hw/camera.tegra.so \
     vendor/samsung/p5wifi/proprietary/lib/hw/gps.tegra.so:system/lib/hw/gps.tegra.so \
     vendor/samsung/p5wifi/proprietary/lib/hw/gralloc.tegra.so:system/lib/hw/gralloc.tegra.so \
     vendor/samsung/p5wifi/proprietary/lib/hw/hwcomposer.tegra.so:system/lib/hw/hwcomposer.tegra.so \
     vendor/samsung/p5wifi/proprietary/lib/hw/lights.p3.so:system/lib/hw/lights.p3.so \
     vendor/samsung/p5wifi/proprietary/lib/hw/sensors.p3.so:system/lib/hw/sensors.p3.so \
+    vendor/samsung/p5wifi/proprietary/lib/lib_Samsung_Resampler.so:system/lib/lib_Samsung_Resampler.so \
     vendor/samsung/p5wifi/proprietary/lib/libakm.so:system/lib/libakm.so \
     vendor/samsung/p5wifi/proprietary/lib/libardrv_dynamic.so:system/lib/libardrv_dynamic.so \
     vendor/samsung/p5wifi/proprietary/lib/libcgdrv.so:system/lib/libcgdrv.so \
@@ -116,11 +115,6 @@ PRODUCT_COPY_FILES := \
     vendor/samsung/p5wifi/proprietary/lib/libnvtvmr.so:system/lib/libnvtvmr.so \
     vendor/samsung/p5wifi/proprietary/lib/libnvwinsys.so:system/lib/libnvwinsys.so \
     vendor/samsung/p5wifi/proprietary/lib/libnvwsi.so:system/lib/libnvwsi.so \
-    vendor/samsung/p5wifi/proprietary/lib/libsamsungAcousticeq.so:system/lib/libsamsungAcousticeq.so \
-    vendor/samsung/p5wifi/proprietary/lib/lib_Samsung_Acoustic_Module_Llite.so:system/lib/lib_Samsung_Acoustic_Module_Llite.so \
-    vendor/samsung/p5wifi/proprietary/lib/lib_Samsung_Resampler.so:system/lib/lib_Samsung_Resampler.so \
-    vendor/samsung/p5wifi/proprietary/lib/libsamsungSoundbooster.so:system/lib/libsamsungSoundbooster.so \
-    vendor/samsung/p5wifi/proprietary/lib/lib_Samsung_Sound_Booster.so:system/lib/lib_Samsung_Sound_Booster.so \
     vendor/samsung/p5wifi/proprietary/lib/libsec-ril-apalone.so:system/lib/libsec-ril-apalone.so \
     vendor/samsung/p5wifi/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
     vendor/samsung/p5wifi/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
