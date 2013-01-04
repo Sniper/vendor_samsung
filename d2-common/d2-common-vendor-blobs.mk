@@ -124,4 +124,5 @@ PRODUCT_COPY_FILES += \
         vendor/samsung/d2-common/proprietary/etc/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt \
         vendor/samsung/d2-common/proprietary/etc/wifi/nvram_net.txt_murata:system/etc/wifi/nvram_net.txt_murata \
         vendor/samsung/d2-common/proprietary/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
-        vendor/samsung/d2-common/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so
+        vendor/samsung/d2-common/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so \
+        vendor/samsung/d2-common/proprietary/etc/bluetooth/main.conf:system/etc/bluetooth/main.conf
