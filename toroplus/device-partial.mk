@@ -13,6 +13,13 @@
 # limitations under the License.
 
 # Samsung blob(s) necessary for ToroPlus hardware
+LOCAL_PATH := vendor/samsung/toroplus
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/proprietary/smc_normal_world_android_cfg.ini:system/vendor/etc/smc_normal_world_android_cfg.ini
+    $(LOCAL_PATH)/proprietary/smc_pa_wvdrm.ift:system/vendor/firmware/smc_pa_wvdrm.ift
+
+
 PRODUCT_PACKAGES := \
     BIP \
     HiddenMenu \
