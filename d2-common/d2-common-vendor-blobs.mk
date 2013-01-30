@@ -73,6 +73,8 @@ PRODUCT_COPY_FILES += \
         vendor/samsung/d2-common/proprietary/lib/libatparser.so:system/lib/libatparser.so \
         vendor/samsung/d2-common/proprietary/lib/libqcci_legacy.so:system/lib/libqcci_legacy.so \
         vendor/samsung/d2-common/proprietary/lib/libqmi_client_qmux.so:system/lib/libqmi_client_qmux.so \
+        vendor/samsung/d2-common/proprietary/lib/libomission_avoidance.so:system/lib/libomission_avoidance.so \
+        vendor/samsung/d2-common/proprietary/lib/libfactoryutil.so:system/lib/libfactoryutil.so \
         vendor/samsung/d2-common/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
         vendor/samsung/d2-common/proprietary/lib/hw/nfc.MSM8960.so:system/lib/hw/nfc.MSM8960.so \
         vendor/samsung/d2-common/proprietary/lib/hw/sensors.msm8960.so:system/lib/hw/sensors.msm8960.so \
@@ -111,6 +113,7 @@ PRODUCT_COPY_FILES += \
         vendor/samsung/d2-common/proprietary/cameradata/SlimISP_ZC.bin:system/cameradata/SlimISP_ZC.bin \
         vendor/samsung/d2-common/proprietary/cameradata/SlimISP_ZD.bin:system/cameradata/SlimISP_ZD.bin \
         vendor/samsung/d2-common/proprietary/cameradata/SlimISP_ZE.bin:system/cameradata/SlimISP_ZE.bin \
+        vendor/samsung/d2-common/proprietary/cameradata/SlimISP_ZH.bin:system/cameradata/SlimISP_ZH.bin \
         vendor/samsung/d2-common/proprietary/cameradata/datapattern_420sp.yuv:system/cameradata/datapattern_420sp.yuv \
         vendor/samsung/d2-common/proprietary/cameradata/datapattern_front_420sp.yuv:system/cameradata/datapattern_front_420sp.yuv \
         vendor/samsung/d2-common/proprietary/lib/libdiag.so:system/lib/libdiag.so \
@@ -124,5 +127,4 @@ PRODUCT_COPY_FILES += \
         vendor/samsung/d2-common/proprietary/etc/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt \
         vendor/samsung/d2-common/proprietary/etc/wifi/nvram_net.txt_murata:system/etc/wifi/nvram_net.txt_murata \
         vendor/samsung/d2-common/proprietary/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
-        vendor/samsung/d2-common/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so \
-        vendor/samsung/d2-common/proprietary/etc/bluetooth/main.conf:system/etc/bluetooth/main.conf
+        vendor/samsung/d2-common/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so
