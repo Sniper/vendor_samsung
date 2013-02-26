@@ -17,7 +17,4 @@
 PRODUCT_COPY_FILES += \
     vendor/samsung/tuna/proprietary/sirfgps.conf:system/vendor/etc/sirfgps.conf \
     vendor/samsung/tuna/proprietary/ducati-m3.bin:system/vendor/firmware/ducati-m3.bin \
-    vendor/samsung/tuna/proprietary/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so \
     vendor/samsung/tuna/proprietary/gps.omap4.so:system/vendor/lib/hw/gps.omap4.so \
-
-

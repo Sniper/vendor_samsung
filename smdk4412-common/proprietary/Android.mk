@@ -15,7 +15,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter i9300 n7100 n8000 n8013,$(TARGET_DEVICE)),)
+ifneq ($(filter i9300 i9305 n7100 n8000 n8013 t0lte i605 l900 r950,$(TARGET_DEVICE)),)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := libTVOut
@@ -41,16 +41,6 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := libfimc
 LOCAL_MODULE_OWNER := samsung
 LOCAL_SRC_FILES := system/lib/libfimc.so
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_SUFFIX := .so
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_PATH := $(TARGET_OUT)/lib
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := libsecion
-LOCAL_MODULE_OWNER := samsung
-LOCAL_SRC_FILES := system/lib/libsecion.so
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
