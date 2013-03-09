@@ -16,4 +16,7 @@
 PRODUCT_PACKAGES := \
     fRom \
     libsec-ril \
-    libsecril-client
+    libsecril-client \
+    gps.omap4 \
+    ducati-m3 \
+    sirfgps

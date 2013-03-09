@@ -31,4 +31,7 @@ PRODUCT_PACKAGES := \
     libsec-ril_lte \
     libsecril-client \
     libsyncml_core \
-    libsyncml_port
+    libsyncml_port \
+    gps.omap4 \
+    ducati-m3 \
+    sirfgps

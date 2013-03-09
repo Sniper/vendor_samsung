@@ -27,7 +27,10 @@ PRODUCT_PACKAGES := \
     lib_gsd4t \
     libims \
     libims_jni \
-    libsec-ril_lte
+    libsec-ril_lte \
+    gps.omap4 \
+    ducati-m3 \
+    sirfgps
 
 # This is Open Source but doesn't get built without
 # the other packages above
